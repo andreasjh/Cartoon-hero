@@ -1,6 +1,7 @@
 html, body{
 	font-family: Arial, sans-serif;
 	margin: 0;
+
 }
 
 header{
@@ -12,6 +13,7 @@ header{
 h1{
 	font-size: 90px;
 	color: white;
+	margin: 20px 0 0 0;
 }
 
 header img{
@@ -21,12 +23,17 @@ header img{
 }
 
 .content{
-	max-width: 900px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px 20px;
+	text-align: center;
+	background-color: #3eef34;
+
 }
 
-img.big-image{
+ol li{
+	list-style-type: none;
+}
+img.Stort-billede{
 	max-width: 100%;
 }
 
@@ -47,7 +54,7 @@ a{
 }
 
 footer{
-	margin-top: 20px;
+
 	padding: 40px 20px;
 	background-color: #E6E6E6;
 }
@@ -60,6 +67,8 @@ footer ul li{
 	display: inline-block;
 	margin: 0 5px;
 }
+
+
 /*<head>
 	<title>Wreck-It Ralph</title>
 	<link rel="stylesheet" type="text/css" href="css/hero.css">
